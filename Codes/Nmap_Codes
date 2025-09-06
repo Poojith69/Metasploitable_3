@@ -1,0 +1,16 @@
+
+
+# for Host Discovery 
+
+code: nmap 192.168.56.0/24
+
+host IP address: 192.168.56.3
+
+# for port scanning
+
+code: nmap -sV -p- 192.168.56.3
+
+# for Script Scan
+
+
+

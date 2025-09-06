@@ -1,0 +1,43 @@
+host ip : 192.168.56.1
+target ip : 192.168.56.3
+
+OS: Microsoft Windows Server 2008 R2 - 2012
+
+PORT      STATE SERVICE              VERSION
+21/tcp    open  ftp                  Microsoft ftpd
+80/tcp    open  http                 Microsoft IIS httpd 7.5
+135/tcp   open  msrpc                Microsoft Windows RPC
+139/tcp   open  netbios-ssn          Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds         Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+1617/tcp  open  java-rmi             Java RMI
+3306/tcp  open  mysql                MySQL 5.5.20-log
+3389/tcp  open  ms-wbt-server        Microsoft Terminal Service
+3700/tcp  open  giop
+4848/tcp  open  ssl/http             Oracle GlassFish 4.0 (Servlet 3.1; JSP 2.3; Java 1.8)
+5985/tcp  open  http                 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+7676/tcp  open  java-message-service Java Message Service 301
+8020/tcp  open  http                 Apache httpd
+8027/tcp  open  papachi-p2p-srv?
+8080/tcp  open  http                 Oracle GlassFish 4.0 (Servlet 3.1; JSP 2.3; Java 1.8)
+8181/tcp  open  ssl/http             Oracle GlassFish 4.0 (Servlet 3.1; JSP 2.3; Java 1.8)
+8383/tcp  open  http                 Apache httpd
+8484/tcp  open  http                 Jetty winstone-2.8
+8585/tcp  open  http                 Apache httpd 2.2.21 ((Win64) PHP/5.3.10 DAV/2)
+8686/tcp  open  java-rmi             Java RMI
+9200/tcp  open  http                 Elasticsearch REST API 1.1.1 (name: Kyle Gibney; Lucene 4.7)
+9300/tcp  open  vrace?
+47001/tcp open  http                 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+49152/tcp open  msrpc                Microsoft Windows RPC
+49153/tcp open  msrpc                Microsoft Windows RPC
+49154/tcp open  msrpc                Microsoft Windows RPC
+49157/tcp open  java-rmi             Java RMI
+49158/tcp open  tcpwrapped
+49177/tcp open  msrpc                Microsoft Windows RPC
+49180/tcp open  msrpc                Microsoft Windows RPC
+49204/tcp open  msrpc                Microsoft Windows RPC
+49221/tcp open  ssh                  Apache Mina sshd 0.8.0 (protocol 2.0)
+49222/tcp open  jenkins-listener     Jenkins TcpSlaveAgentListener
+49283/tcp open  java-rmi             Java RMI
+49287/tcp open  unknown
+49288/tcp open  unknown
+49289/tcp open  unknown

