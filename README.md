@@ -62,8 +62,8 @@ The goal of this project is to explore and demonstrate common attack vectors, vu
 ## ✅ Status
 - [x] Lab setup complete  
 - [x] Initial scanning and enumeration  
-- [ ] Exploitation phase (in progress)  
-- [ ] Report writing  
+- [x] Exploitation phase  
+- [x] Report writing  
 
 ---
 
